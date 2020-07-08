@@ -102,7 +102,7 @@ var componentData = {
         components: ["AutomatedWiring", "CircuitBoard", "HeavyModularFrame", "Computer"],
         amounts: [15, 10, 2, 2],
         usedPerMinute: [7.5, 5, 1, 1],
-        createdPerMinute: [1]
+        createdPerMinute: [2]
     },
 	AILimiter:{
         createdComponents: ["AILimiter"],
