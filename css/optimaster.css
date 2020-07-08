@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Satisfontory';
+    src: url('../fonts/Satisfontory_v1.5.ttf')  format('truetype')        
+  }
+
+body{
+    background-image : url("../img/backgrounds/wallpaper.png");
+    background-repeat: no-repeat; 
+    background-color: black;
+    background-size: cover;
+    color:white;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+#svgContainer { 
+	z-index: -10;
+	position:absolute;
+	opacity: 1;
+}
+.componentHolder{    
+    padding: 1px;
+    padding-bottom: 32px;
+    padding-top : 0px;
+}
+.Miner, .Smelter, .OilExtractor, .Constructor, .Assembler, .Manufacturer, .WaterExtractor, .Foundry, .Refinery{
+    background-color: #232323;
+    border-radius: 8px;
+    text-align: center;
+    border-spacing: 4px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*
+.OilExtractor{
+    background-color: #010101;
+}
+.Miner{
+    background-color: #2e2e2e;
+}
+
+.Smelter{
+    background-color: #c75b03;
+}
+
+.WaterExtractor{
+    background-color: #3e66a1;
+}
+
+.Constructor{
+    background-color: #5aa800;
+}
+
+.Assembler{
+    background-color: #0f5f0d;
+}
+
+.Manufacturer{
+    background-color: #003004;
+}
+
+.Foundry{
+    background-color: #c71e00;
+}
+.Refinery{
+    background-color: #491368;
+}
+*/
+
+.componentImg{
+    padding: 8px;
+    background-color: grey;
+    border-radius: 4px;
+    width: 64px;
+    height: 64px;
+}
+.componentInfo{
+    position: relative;
+}
+.componentAmount{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+    background-color: #333333;
+    color:white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.componentName, .machineName{
+    width: 64px;
+    height: 20px;
+    background-color: #333333;
+    color: white;
+    border-radius: 4px;
+    margin: 4px;
+    font-family: 'Satisfontory';
+    font-size: 8px;         
+}
+
+.MainMenu{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding: 8px;
+    background-color: #232323;
+    font-family: 'Satisfontory';
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#logo{
+    width: 400px;
+    
+}
+
+#logoText{
+    margin: 4px;
+    font-size: 32px;
+}
+
+#optimizeButton{
+    display: inline-block;
+    margin: 8px;
+    position: absolute;
+    right: 16px;
+    bottom: 10px;
+    height: 32px;
+    width: 90px;
+    background-color: #232323;
+    color: white;
+    font-family: 'Satisfontory';
+}
+
+#selectionList{
+
+    position: absolute;
+    left: 16px;
+    bottom: 10px;
+    margin: 8px;
+    height: 32px;
+
+    background-color: #232323;
+    font-family: 'Satisfontory';
+    font-size: 18px;
+    color: white;
+}
+
+#container{
+    padding: 100px;
+}

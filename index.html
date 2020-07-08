@@ -1,0 +1,107 @@
+<html>
+    <head>
+		<title>
+			Production Optimizer
+		</title>
+		<link rel="stylesheet" href="css/optimaster.css">
+		<link rel="icon" href="img/HeavyModularFrame.png">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+	
+	<body>
+		<div id='svgContainer' style='margin: 50px 50px;'>
+			<svg id='svg1' width='0' height='0'>
+			</svg>
+		</div>
+
+		<div class="MainMenu"><img id="logo" src="img/gui/logo.jpg"/>
+		<p id="logoText">Production Optimizer</p>
+		<select id="selectionList"name="Components">
+			<option value="AdaptiveControlUnit">Adaptive Control Unit</option>
+			<option value="AILimiter">A.I. Limiter</option>
+			<option value="AluminaSolution">Alumina Solution</option>	
+			<option value="AlcladAluminumSheet">Alclad Aluminum Sheet</option>	
+			<option value="AluminumIngot">Aluminum Ingot</option>	
+			<option value="AluminumScrap">Aluminum Scrap</option>	
+			<option value="AutomatedWiring">Automated Wiring</option>
+			<option value="Battery">Battery</option>	
+			<option value="Bauxite">Bauxite</option>
+			<option value="BlackPowder">Black Powder</option>
+			<option vlaue="Biomass">Biomass</option>
+			<option value="Cable">Cable</option>
+			<option value="CateriumOre">Caterium Ore</option>	
+			<option value="CateriumIngot">Caterium Ingot</option>
+			<option value="CircuitBoard">Circuit Board</option>	
+			<option value="CompactedCoal">Compacted Coal</option>	
+			<option value="Coal">Coal</option>
+			<option value="Computer">Computer</option>
+			<option value="Concrete">Concrete</option>
+			<option value="CopperIngot">Copper Ingot</option>
+			<option value="CopperOre">Copper Ore</option>
+			<option value="CopperSheet">Copper Sheet</option>
+			<option value="CrudeOil">Crude Oil</option>
+			<option value="CrystalOscillator">Crystal Oscillator</option>
+			<option value="ElectromagneticControlRod">Electromagnetic Control Rod</option>	
+			<option value="EmptyCanister">Empty Canister</option>					
+			<option value="EncasedIndustrialBeam">Encased Industrial Beam</option>
+			<option value="EncasedUraniumCell">Encased Uranium Cell</option>	
+			<option value="Fabric">Fabric</option>
+			<option value="Fuel">Fuel</option>	
+			<option value="HeatSink">Heat Sink</option>	
+			<option value="HeavyModularFrame">Heavy Modular Frame</option>
+			<option value="HeavyOilResidue">Heavy Oil Residue</option>	
+			<option value="HighSpeedConnector">High-Speed Connector</option>
+			<option value="IronOre">Iron Ore</option>
+			<option value="IronIngot">Iron Ingot</option>
+			<option value="IronPlate">Iron Plate</option>
+			<option value="IronRod">Iron Rod</option>
+			<option value="Limestone">Lime Stone</option>
+			<option value="LiquidBiofuel">Liquid Biofuel</option>	
+			<option value="ModularEngine">Modular Engine</option>	
+			<option value="ModularFrame">Modular Frame</option>
+			<option value="Motor">Motor</option>
+			<option value="NuclearFuelRod">Nuclear Fuel Rod</option>	
+			<option value="NuclearWaste">Nuclear Waste</option>	
+			<option value="PackagedCrudeOil">Packaged Crude Oil</option>
+			<option value="PackagedFuel">Packaged Fuel</option>		
+			<option value="PackagedHeavyOilResidue">Packaged Heavy Oil Residue</option>	
+			<option value="PackagedLiquidBiofuel">Packaged Liquid Biofuel</option>	
+			<option value="PackagedTurbofuel">Packaged Turbofuel</option>		
+			<option value="PackagedWater">Packaged Water</option>
+			<option value="PetroleumCoke">Petroleum Coke</option>	
+			<option value="Plastic">Plastic</option>
+			<option value="PolymerResin">Polymer Resin</option>	
+			<option value="QuartzCrystal">Quartz Crystal</option>
+			<option value="Quickwire">Quickwire</option>
+			<option value="RadioControlUnit">Radio Control Unit</option>
+			<option value="RawQuartz">Raw Quartz</option>
+			<option value="ReinforcedIronPlate">Reinforced Iron Plate</option>
+			<option value="Rotor">Rotor</option>
+			<option value="Rubber">Rubber</option>	
+			<option value="SAMOre">S.A.M. Ore</option>
+			<option value="Screw">Screw</option>
+			<option value="Silica">Silica</option>
+			<option value="SmartPlating">Smart Plating</option>
+			<option value="SolidBiofuel">Solid Biofuel</option>
+			<option value="Stator">Stator</option>
+			<option value="SteelBeam">Steel Beam</option>
+			<option value="SteelIngot">Steel Ingot</option>
+			<option value="SteelPipe">Steel Pipe</option>
+			<option value="Sulfur">Sulfur</option>
+			<option value="SulfuricAcid">Sulfuric Acid</option>	
+			<option value="Supercomputer">Supercomputer</option>
+			<option value="Turbofuel">Turbofuel</option>
+			<option value="TurboMotor">Turbo Motor</option>	
+			<option value="Uranium">Uranium</option>
+			<option value="UraniumPellet">Uranium Pellet</option>	
+			<option value="VersatileFramework">Versatile Framework</option>
+			<option value="Water">Water</option>
+			<option value="Wire">Wire</option>		
+		</select>		
+		<input id="optimizeButton" type="button" value="Optimize" onclick="Optimize()"/>
+	</div>
+		<div id="container"></div>	
+		<script src="js/satisfactoryComponents.js"></script>
+		<script src="js/optimaster.js"></script>
+    </body>
+</html>
